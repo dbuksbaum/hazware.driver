@@ -2,8 +2,6 @@ using System;
 using System.ComponentModel.Composition;
 using RunnableApplication;
 using System.ComponentModel.Composition.Hosting;
-using System.Configuration;
-using System.Reflection;
 
 namespace ConsoleDriver
 {
