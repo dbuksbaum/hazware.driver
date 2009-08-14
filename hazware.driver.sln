@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{169DB423-2258-4414-ACDB-1668EA369A4F}"
+	ProjectSection(SolutionItems) = preProject
+		README.markdown = README.markdown
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleDriver", "ConsoleDriver\ConsoleDriver.csproj", "{A7FD1E36-01D3-489C-89EA-6A27A30CDFED}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1CB44050-B557-439F-8FD1-FC4D1EEF7250} = {1CB44050-B557-439F-8FD1-FC4D1EEF7250}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunnableApplication", "RunnableApplication\RunnableApplication.csproj", "{F051EA68-7E3F-4A1B-96F7-9EA217620193}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAppOne", "TestAppOne\TestAppOne.csproj", "{1CB44050-B557-439F-8FD1-FC4D1EEF7250}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7FD1E36-01D3-489C-89EA-6A27A30CDFED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7FD1E36-01D3-489C-89EA-6A27A30CDFED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7FD1E36-01D3-489C-89EA-6A27A30CDFED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7FD1E36-01D3-489C-89EA-6A27A30CDFED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F051EA68-7E3F-4A1B-96F7-9EA217620193}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F051EA68-7E3F-4A1B-96F7-9EA217620193}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F051EA68-7E3F-4A1B-96F7-9EA217620193}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F051EA68-7E3F-4A1B-96F7-9EA217620193}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CB44050-B557-439F-8FD1-FC4D1EEF7250}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CB44050-B557-439F-8FD1-FC4D1EEF7250}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CB44050-B557-439F-8FD1-FC4D1EEF7250}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CB44050-B557-439F-8FD1-FC4D1EEF7250}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
